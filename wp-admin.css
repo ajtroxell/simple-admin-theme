@@ -7,6 +7,7 @@ body.login{background:#fff}
 .wp-core-ui .button-primary{background-color:#333;background-image:none;-webkit-box-shadow:none;box-shadow:none;color:#FFF;text-decoration:none;text-shadow:none;-webkit-border-radius:0;border-radius:0;border-color:transparent}
 .wp-core-ui .button-primary.hover,.wp-core-ui .button-primary:hover,.wp-core-ui .button-primary.focus,.wp-core-ui .button-primary:focus{background-color:#222;background-image:none;-webkit-box-shadow:none;box-shadow:none;color:#FFF;text-shadow:none;border-color:transparent}
 .wp-core-ui .button-primary.active,.wp-core-ui .button-primary.active:hover,.wp-core-ui .button-primary.active:focus,.wp-core-ui .button-primary:active{background-color:#333;background-image:none;-webkit-box-shadow:none;box-shadow:none;color:#FFF;text-shadow:none;border-color:transparent}
+.wp-core-ui .button-primary[disabled], .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary-disabled {color:#fff!important;background:#222!important;border-color:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;cursor:default;}
 .quicktags-toolbar input{-webkit-border-radius:0!important;border-radius:0!important}
 #post-status-info{-webkit-border-bottom-left-radius:0;-webkit-border-bottom-right-radius:0;border-bottom-left-radius:0;border-bottom-right-radius:0}
 #wpadminbar,#wpadminbar .ab-top-secondary{background:#333}
@@ -26,7 +27,8 @@ body.login{background:#fff}
 .revisions-meta,.widget .widget-top,.postbox h3,.stuffbox h3,.widefat thead tr th,.widefat tfoot tr th,h3.dashboard-widget-title,h3.dashboard-widget-title span,h3.dashboard-widget-title small,.sidebar-name,#nav-menu-header,#nav-menu-footer,.menu-item-handle{background:#ececec;background-image:none}
 .quicktags-toolbar,.wp_themeSkin tr.mceFirst td.mceToolbar{background-image:none!important}
 .tmce-active .switch-tmce,.html-active .switch-html{background-color:#EEE!important;border-color:#CCC #CCC #EEE!important}
-#adminmenu .awaiting-mod,#adminmenu .update-plugins,#sidemenu a .update-plugins,#rightnow .reallynow{background-color:#333;color:#FFF;-webkit-box-shadow:none;box-shadow:none}
+#adminmenu .awaiting-mod,#adminmenu .update-plugins,#sidemenu a .update-plugins,#rightnow .reallynow,{background-color:#333;color:#FFF;-webkit-box-shadow:none;box-shadow:none}
+#adminmenu li.current a .awaiting-mod, #adminmenu li a.wp-has-current-submenu .update-plugins {color:#333;}
 #adminmenu li.current a .awaiting-mod,#adminmenu li a.wp-has-current-submenu .update-plugins{background-color:#ececec;-webkit-box-shadow:none;box-shadow:none}
 .nav-tab{text-shadow:none;-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;border-top-left-radius:0;border-top-right-radius:0}
 #collapse-button{background:#444;background-image:none;border-color:transparent}
