@@ -14,6 +14,13 @@ Gives your dashboard a small makeover to a simpler high-contrast theme.
 
 Gives your dashboard a small makeover to a simpler high-contrast theme.
 
+== Features ==
+*	High-contrast theme using default dashboard grays.
+*	Replaced blurred drop-shadows from menus and other elements, replaced with sharp shadows.
+*	Removed border-radiuses from elements.
+*	Replaced login logo with simpler **Wordpres** text logo.
+*	Replaced dashboard Wordpress icon logo with high-contrast version.
+
 == Installation ==
 
 1. Unzip simple-admin-theme.zip and upload the simple-admin-theme folder to `/wp-content/plugins/`.
