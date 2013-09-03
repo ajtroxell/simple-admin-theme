@@ -5,12 +5,12 @@ Plugin Name: Simple Admin Theme
 Plugin URI: http://ajtroxell.com/squar3d-admin-theme
 Description: Gives your dashboard a small makeover to a simpler high-contrast theme.
 Author: AJ Troxell
-Version: 1.1
+Version: 1.2
 Author URI: http://ajtroxell.com
 */
 
 require 'plugin-updates/plugin-update-checker.php';
-$MyUpdateChecker = new PluginUpdateChecker(
+$simple_admin_theme_updates = new PluginUpdateChecker(
     'http://labs.ajtroxell.com/plugins/simple-admin-theme/info.json',
     __FILE__,
     'simple-admin-theme'
